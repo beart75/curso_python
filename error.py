@@ -1,6 +1,6 @@
 # Crear un error para un objeto que se ha agotado en un ecommerce
 almacen = {
-    "Lechuga": 10
+    "Lechuga": 0
  }
 
 class ObjetoAgotado(Exception):
