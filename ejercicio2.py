@@ -91,8 +91,6 @@ def ValidaPW(pw):
             else:
                 isNumber = False
                 print("Sin numero")
-
-
         for caracter in pw:
             if caracter.isupper():
                 isMayus = True
