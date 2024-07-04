@@ -2,7 +2,6 @@
 # # Librería estandar: sys - Es un módulo que permite manejar el interprete y extraer información de este.
 
 import sys
-
 data = sys.argv[1:]
 usuario, contraseña = data
 with open("contraseña.txt", "w") as archivo:
