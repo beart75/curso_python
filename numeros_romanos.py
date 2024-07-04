@@ -13,7 +13,7 @@ def roman2int(romval):
         prev = valor
         if (valor ==prev):
             contador +=1
-    if contador > 4:
+    if contador > 4: #si se introduccen 4 veces el mismo numero seguido
         print("no es un numero romano valido")
         return "ERROR"
     else:
